@@ -4,13 +4,13 @@
 
 class Square:
     """Class that defines a square with validated size"""
-    
+
     def __init__(self, size=0):
         """Initialize a square with optional size
-        
+
         Args:
             size: The size of the square (default: 0)
-            
+
         Raises:
             TypeError: If size is not an integer
             ValueError: If size is less than 0
